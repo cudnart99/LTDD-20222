@@ -22,11 +22,10 @@ public class SocratesActivity extends AppCompatActivity {
             public void run(){
                 System.out.println(isNetworkConnected() ? "connected" : "disconnect");
             }
-        },0,1000);
+        }, 0, 1000);
     }
     private boolean isNetworkConnected() {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-
         return cm.getActiveNetworkInfo() != null && cm.getActiveNetworkInfo().isConnected();
     }
 }
