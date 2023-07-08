@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1335" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/drawable/background_item.xml" value="0.1335" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/drawable/border_background_10dp.xml" value="0.1335" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/drawable/gradient_green.xml" value="0.1335" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/drawable/gradient_home.xml" value="0.1335" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/drawable/gradient_violet.xml" value="0.1335" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1335" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1335" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1335" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/drawable/side_nav_bar.xml" value="0.1335" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/activity_friend_location2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/activity_quiz_cua_thay_tuan.xml" value="0.1" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/activity_quiz_start.xml" value="0.12239583333333333" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/activity_socrates.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/app_bar_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/chat_item_receive.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/chat_item_send.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/content_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/fragment_chat.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/fragment_climbing_game.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/fragment_diemdanh.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/fragment_dihoc.xml" value="0.22" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/fragment_ds_lop.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/fragment_login.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/fragment_thongtinsv.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/input_info_layout.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/input_login_layout.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/input_login_student_layout.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/input_point_layout.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/nav_header_main.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/quiz.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/score_card.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/layout/sinh_vien_item.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/menu/activity_main_drawer.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/Duc Tran/Desktop/Work/My project/support-learning-android-program/app/src/main/res/menu/main.xml" value="0.12291666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="15" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

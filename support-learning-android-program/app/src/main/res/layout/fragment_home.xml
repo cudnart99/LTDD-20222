@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+    <!--        android:id="@+id/chat_btn"-->
+    <!--        android:layout_width="171dp"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:background="@drawable/gradient_green"-->
+    <!--        android:text="Chat"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="18sp"-->
+    <!--        tools:layout_editor_absoluteX="220dp"-->
+    <!--        tools:layout_editor_absoluteY="96dp" />-->
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+    <!--        android:id="@+id/play_game_btn"-->
+    <!--        android:layout_width="171dp"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:background="@drawable/gradient_blue"-->
+    <!--        android:text="Giải trí"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="18sp"-->
+    <!--        tools:layout_editor_absoluteX="220dp"-->
+    <!--        tools:layout_editor_absoluteY="262dp" />-->
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="277dp"
+        android:background="@drawable/gradient_home"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/thong_tin_sv_btn"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/gradient_yellow"
+        android:text="Thông tin\n sinh viên"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ds_lop_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/diem_danh_btn"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ds_lop_btn"
+        android:layout_width="171dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient_violet"
+        android:text="Danh sách lớp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/diem_danh_btn"
+        app:layout_constraintStart_toStartOf="@+id/diem_danh_btn"
+        app:layout_constraintTop_toBottomOf="@+id/diem_danh_btn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/diem_danh_ai"
+        android:layout_width="171dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/gradient_green"
+        android:text="Điểm danh AI"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/thong_tin_sv_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/thong_tin_sv_btn"
+        app:layout_constraintTop_toBottomOf="@+id/thong_tin_sv_btn" />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="53dp"
+        android:layout_height="64dp"
+        android:src="@drawable/list"
+        android:translationZ="10dp"
+        app:layout_constraintStart_toStartOf="@+id/thong_tin_sv_btn"
+        app:layout_constraintTop_toTopOf="@+id/thong_tin_sv_btn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/diem_danh_btn"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/gradient_yellow"
+        android:text="Điểm danh"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/thong_tin_sv_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/icon2"-->
+    <!--        android:layout_width="60dp"-->
+    <!--        android:layout_height="56dp"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:src="@drawable/answer"-->
+    <!--        android:translationZ="10dp"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/chat_btn"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/chat_btn" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/icon3"-->
+<!--            android:layout_width="66dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:src="@drawable/puzzle"-->
+<!--            android:translationZ="10dp"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/play_game_btn"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/play_game_btn" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/icon7"-->
+<!--            android:layout_width="66dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:src="@drawable/puzzle"-->
+<!--            android:translationZ="10dp"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/leo_nui_btn"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/leo_nui_btn" />-->
+
+    <ImageView
+        android:id="@+id/icon4"
+        android:layout_width="53dp"
+        android:layout_height="64dp"
+        android:src="@drawable/list"
+        android:translationZ="10dp"
+        app:layout_constraintStart_toStartOf="@+id/thong_tin_sv_btn"
+        app:layout_constraintTop_toTopOf="@+id/thong_tin_sv_btn" />
+
+    <ImageView
+        android:id="@+id/icon6"
+        android:layout_width="53dp"
+        android:layout_height="64dp"
+        android:src="@drawable/list"
+        android:translationZ="10dp"
+        app:layout_constraintStart_toStartOf="@+id/ds_lop_btn"
+        app:layout_constraintTop_toTopOf="@+id/ds_lop_btn" />
+
+    <ImageView
+        android:id="@+id/icon5"
+        android:layout_width="53dp"
+        android:layout_height="64dp"
+        android:src="@drawable/list"
+        android:translationZ="10dp"
+        app:layout_constraintStart_toStartOf="@+id/diem_danh_btn"
+        app:layout_constraintTop_toTopOf="@+id/diem_danh_btn" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView7"-->
+    <!--        android:layout_width="352dp"-->
+    <!--        android:layout_height="28dp"-->
+    <!--        android:layout_marginBottom="16dp"-->
+    <!--        android:text="Sản phẩm được phát triển bởi nhóm 2"-->
+    <!--        android:textAlignment="center"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.491"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView9"-->
+    <!--        android:layout_width="265dp"-->
+    <!--        android:layout_height="66dp"-->
+    <!--        android:layout_marginBottom="16dp"-->
+    <!--        android:text="Danh sách thành viên:\n1. Võ Kiều Trinh - 20182833\n2. Ngô Quang Hiếu - 20182514"-->
+    <!--        android:textSize="18sp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/textView7"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
