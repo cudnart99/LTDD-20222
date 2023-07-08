@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1009795653698",
+    "project_id": "slap-43b88",
+    "storage_bucket": "slap-43b88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009795653698:android:be7d195188e46d26f40ddb",
+        "android_client_info": {
+          "package_name": "com.android.slap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009795653698-if23qdl542eqq4rav01nds5gn3ok1qde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.slap",
+            "certificate_hash": "182eca09d58dd34472404007b6d8abb840a682d7"
+          }
+        },
+        {
+          "client_id": "1009795653698-vsus348g0meqnivlcpl94pnnaahs0aee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb-FPG2tj-ZR5kvmkXKwAXdG5DgcXfj_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009795653698-vsus348g0meqnivlcpl94pnnaahs0aee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
