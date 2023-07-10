@@ -36,29 +36,29 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-//        Button playGameBtn = binding.playGameBtn;
-//        playGameBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent myIntent;
-//                if(MainActivity.THAY){
-//                    myIntent = new Intent(getActivity(), QuizCuaThayActivity.class);
-//                }else{
-//                    myIntent = new Intent(getActivity(), QuizStartActivity.class);
-//                }
-//                getActivity().startActivity(myIntent);
-//            }
-//        });
+        Button playGameBtn = binding.playGameBtn;
+        playGameBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent;
+                if(MainActivity.THAY){
+                    myIntent = new Intent(getActivity(), QuizCuaThayActivity.class);
+                }else{
+                    myIntent = new Intent(getActivity(), QuizStartActivity.class);
+                }
+                getActivity().startActivity(myIntent);
+            }
+        });
 
-//        Button chatBtn = binding.chatBtn;
-//        chatBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                Intent myIntent = new Intent(getActivity(), ChatActivity.class);
-//                getActivity().startActivity(myIntent);
-//            }
-//        });
+        Button chatBtn = binding.chatBtn;
+        chatBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent myIntent = new Intent(getActivity(), ChatActivity.class);
+                getActivity().startActivity(myIntent);
+            }
+        });
 
         Button diemDanhBtn = binding.diemDanhBtn;
         setupNavigate(diemDanhBtn,R.id.nav_diem_danh);

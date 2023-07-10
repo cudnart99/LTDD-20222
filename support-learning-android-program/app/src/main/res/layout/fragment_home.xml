@@ -6,36 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <!--    <androidx.appcompat.widget.AppCompatButton-->
-    <!--        android:id="@+id/chat_btn"-->
-    <!--        android:layout_width="171dp"-->
-    <!--        android:layout_height="150dp"-->
-    <!--        android:background="@drawable/gradient_green"-->
-    <!--        android:text="Chat"-->
-    <!--        android:textAllCaps="false"-->
-    <!--        android:textColor="@color/white"-->
-    <!--        android:textSize="18sp"-->
-    <!--        tools:layout_editor_absoluteX="220dp"-->
-    <!--        tools:layout_editor_absoluteY="96dp" />-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/play_game_btn"
+        android:layout_width="171dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient_blue"
+        android:text="Giải trí"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/diem_danh_ai"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/diem_danh_ai"
+        app:layout_constraintTop_toBottomOf="@+id/diem_danh_ai" />
 
-    <!--    <androidx.appcompat.widget.AppCompatButton-->
-    <!--        android:id="@+id/play_game_btn"-->
-    <!--        android:layout_width="171dp"-->
-    <!--        android:layout_height="150dp"-->
-    <!--        android:background="@drawable/gradient_blue"-->
-    <!--        android:text="Giải trí"-->
-    <!--        android:textAllCaps="false"-->
-    <!--        android:textColor="@color/white"-->
-    <!--        android:textSize="18sp"-->
-    <!--        tools:layout_editor_absoluteX="220dp"-->
-    <!--        tools:layout_editor_absoluteY="262dp" />-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/chat_btn"
+        android:layout_width="171dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient_green"
+        android:text="Chat"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/ds_lop_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ds_lop_btn"
+        app:layout_constraintTop_toBottomOf="@+id/ds_lop_btn" />
 
     <View
         android:id="@+id/view"
         android:layout_width="wrap_content"
-        android:layout_height="277dp"
-        android:background="@drawable/gradient_home"
+        android:layout_height="0dp"
+        android:layout_marginBottom="112dp"
 
+        android:background="@drawable/gradient_home"
+        app:layout_constraintBottom_toTopOf="@+id/chat_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -112,35 +120,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--    <ImageView-->
-    <!--        android:id="@+id/icon2"-->
-    <!--        android:layout_width="60dp"-->
-    <!--        android:layout_height="56dp"-->
-    <!--        android:layout_marginStart="8dp"-->
-    <!--        android:layout_marginTop="8dp"-->
-    <!--        android:src="@drawable/answer"-->
-    <!--        android:translationZ="10dp"-->
-    <!--        app:layout_constraintStart_toStartOf="@+id/chat_btn"-->
-    <!--        app:layout_constraintTop_toTopOf="@+id/chat_btn" />-->
+<!--            <ImageView-->
+<!--                android:id="@+id/icon3"-->
+<!--                android:layout_width="60dp"-->
+<!--                android:layout_height="56dp"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:src="@drawable/answer"-->
+<!--                android:translationZ="10dp"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/chat_btn"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/chat_btn" />-->
 
-<!--        <ImageView-->
-<!--            android:id="@+id/icon3"-->
-<!--            android:layout_width="66dp"-->
-<!--            android:layout_height="60dp"-->
-<!--            android:layout_marginTop="8dp"-->
-<!--            android:src="@drawable/puzzle"-->
-<!--            android:translationZ="10dp"-->
-<!--            app:layout_constraintStart_toStartOf="@+id/play_game_btn"-->
-<!--            app:layout_constraintTop_toTopOf="@+id/play_game_btn" />-->
+    <!--        <ImageView-->
+    <!--            android:id="@+id/icon3"-->
+    <!--            android:layout_width="66dp"-->
+    <!--            android:layout_height="60dp"-->
+    <!--            android:layout_marginTop="8dp"-->
+    <!--            android:src="@drawable/puzzle"-->
+    <!--            android:translationZ="10dp"-->
+    <!--            app:layout_constraintStart_toStartOf="@+id/play_game_btn"-->
+    <!--            app:layout_constraintTop_toTopOf="@+id/play_game_btn" />-->
 
-<!--        <ImageView-->
-<!--            android:id="@+id/icon7"-->
-<!--            android:layout_width="66dp"-->
-<!--            android:layout_height="60dp"-->
-<!--            android:src="@drawable/puzzle"-->
-<!--            android:translationZ="10dp"-->
-<!--            app:layout_constraintStart_toStartOf="@+id/leo_nui_btn"-->
-<!--            app:layout_constraintTop_toTopOf="@+id/leo_nui_btn" />-->
+    <!--        <ImageView-->
+    <!--            android:id="@+id/icon7"-->
+    <!--            android:layout_width="66dp"-->
+    <!--            android:layout_height="60dp"-->
+    <!--            android:src="@drawable/puzzle"-->
+    <!--            android:translationZ="10dp"-->
+    <!--            app:layout_constraintStart_toStartOf="@+id/leo_nui_btn"-->
+    <!--            app:layout_constraintTop_toTopOf="@+id/leo_nui_btn" />-->
 
     <ImageView
         android:id="@+id/icon4"
