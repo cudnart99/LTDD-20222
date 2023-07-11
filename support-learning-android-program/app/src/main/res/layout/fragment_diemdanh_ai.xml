@@ -27,7 +27,7 @@
             android:layout_marginStart="132dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="132dp"
-            android:text="Điểm danh AI"
+            android:text="Xác thực AI"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"

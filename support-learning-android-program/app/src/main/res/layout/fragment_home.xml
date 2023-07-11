@@ -86,7 +86,7 @@
         android:layout_height="150dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/gradient_green"
-        android:text="Điểm danh AI"
+        android:text="Xác thực AI"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp"

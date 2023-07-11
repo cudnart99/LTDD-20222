@@ -1,7 +1,6 @@
 package com.android.slap;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -19,7 +18,7 @@ import com.android.slap.adapter.Score;
 import com.android.slap.adapter.ScoreAdapter;
 import com.android.slap.dao.QuizDAO;
 import com.android.slap.dao.SinhVienDAO;
-import com.android.slap.databinding.ActivityQuizCuaThayTuanBinding;
+import com.android.slap.databinding.ActivityQuizCuaThayBinding;
 import com.android.slap.event.SinhVienModelEvent;
 import com.android.slap.model.FSInstance;
 import com.android.slap.model.SinhVienModel;
@@ -42,7 +41,7 @@ import java.util.TimerTask;
 
 public class QuizCuaThayActivity extends AppCompatActivity implements ValueEventListener, SinhVienModelEvent {
     public static boolean isAnswer = false;
-    private ActivityQuizCuaThayTuanBinding binding;
+    private ActivityQuizCuaThayBinding binding;
     FirebaseFirestore firestore;
     public static DatabaseReference myRef = FirebaseDatabase
             .getInstance()
@@ -74,7 +73,7 @@ public class QuizCuaThayActivity extends AppCompatActivity implements ValueEvent
             getWindow().setStatusBarColor(Color.TRANSPARENT);
         }
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_quiz_cua_thay_tuan);
+        setContentView(R.layout.activity_quiz_cua_thay);
         myRef.child("flag").addValueEventListener(this);
 
         arrayList = new ArrayList<>();
