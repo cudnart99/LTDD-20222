@@ -103,16 +103,16 @@
             app:layout_constraintTop_toBottomOf="@+id/title"
             android:layout_marginRight="48dp" />
 
-        <Button
-            android:id="@+id/buttonPicker"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Chọn ảnh"
-            app:layout_constraintEnd_toStartOf="@+id/spinner"
-            app:layout_constraintHorizontal_bias="0.532"
-            app:layout_constraintStart_toEndOf="@+id/cua_than_ky"
-            app:layout_constraintTop_toBottomOf="@+id/title" />
+<!--        <Button-->
+<!--            android:id="@+id/buttonPicker"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text="Chọn ảnh"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/spinner"-->
+<!--            app:layout_constraintHorizontal_bias="0.532"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/cua_than_ky"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/title" />-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
