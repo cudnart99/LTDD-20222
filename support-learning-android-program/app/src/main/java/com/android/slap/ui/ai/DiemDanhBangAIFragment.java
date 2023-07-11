@@ -167,6 +167,7 @@ public class DiemDanhBangAIFragment extends Fragment {
             s += e.name + "(" + e.percent +"%)\n";
         }
         textView.setText(s);
+        textView.setText("helo123");
 //        SinhVienAdapter sinhVienAdapter =new SinhVienAdapter(getActivity(), new GetBody(10).result);
 //        //new SinhVienAdapter(getContext(),getBody.result);
 //        GridView g = binding.gridSv;

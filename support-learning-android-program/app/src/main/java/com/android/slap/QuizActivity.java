@@ -221,7 +221,9 @@ public class QuizActivity
             }
             s.put(
               MainActivity.USER_ID,
-              ans.equals(answer) ? "" + (100 - 2 * s.keySet().size()) : "0"
+//              ans.equals(answer) ? "" + (100 - 2 * s.keySet().size()) : "0"
+              ans.equals(answer) ? "" + 100 : "0"
+
             );
             FSInstance.db.collection("answer1").document(keyQuestion).set(s);
           }

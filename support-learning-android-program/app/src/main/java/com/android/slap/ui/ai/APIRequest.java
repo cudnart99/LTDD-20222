@@ -38,7 +38,7 @@ public class APIRequest {
                 public void run() {
                     // Create URL
                     try{
-                        URL githubEndpoint = new URL("http://192.168.7.3:5000/get?src=" + srcPrefix + src);
+                        URL githubEndpoint = new URL("http://127.0.0.1:5000/get?src=" + srcPrefix + src);
 //                        URL githubEndpoint = new URL("http://192.168.7.3:5500/fe/i.json");
 //                        URL githubEndpoint = new URL("http://192.168.7.3:5000/get?src=.%2F..%2Ffe%2Fsrc%2Fimages%2F07_07_2023_23_12_17_minhduc.jpg");
 // Create connection
@@ -104,7 +104,7 @@ public class APIRequest {
                 public void run() {
                     // Create URL
                     try{
-                        URL url = new URL("http://192.168.7.3:5000/file-upload");
+                        URL url = new URL("http://127.0.0.1:5000/file-upload");
                         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
                         connection.setRequestMethod("POST");
@@ -196,7 +196,7 @@ public class APIRequest {
                 .build();
 
         Request request = new Request.Builder()
-                .url("http://192.168.7.3:5000/file-upload") // Replace with your server URL
+                .url("http://127.0.0.1:5000/file-upload") // Replace with your server URL
                 .post(requestBody)
                 .build();
 
