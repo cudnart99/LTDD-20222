@@ -56,7 +56,6 @@ public class ChatActivity extends AppCompatActivity implements ChatModelEvent {
         }
       }
     );
-
     timerRefresh = new Timer();
     timerRefresh.scheduleAtFixedRate(
       new TimerTask() {
@@ -69,7 +68,6 @@ public class ChatActivity extends AppCompatActivity implements ChatModelEvent {
       500
     );
   }
-
   @Override
   public void afterGetData(List<ChatDAO> list, boolean newData) {
     if (newData) {

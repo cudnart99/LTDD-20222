@@ -67,12 +67,6 @@ public class ChatAdapter extends BaseAdapter {
 
         contentText.setText(name + chatItem.content);
 
-//        if(sinhVienItem.fullname != null){
-//            textName.setText(sinhVienItem.fullname);
-//        }else{
-//            textName.setText(sinhVienItem.name);
-//        }
-
 
         return view;
     }
